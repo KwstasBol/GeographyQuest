@@ -1,7 +1,6 @@
 <?php
 
 
-function checkpassword($pass){
 
     $two_capitals=preg_match("^(.*?[A-Z]){2,}^",$pass);
     $two_numbers=preg_match("^(.*?[A-Z]){2,}^",$pass);
